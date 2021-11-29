@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0](https://www.github.com/web3-storage/web3.storage/compare/api-v4.1.0...api-v4.2.0) (2021-11-29)
+
+
+### Features
+
+* enable sentry to record X-Client request header ([#711](https://www.github.com/web3-storage/web3.storage/issues/711)) ([5276add](https://www.github.com/web3-storage/web3.storage/commit/5276addfc22b63a0af7a5311056b477160a1ae28))
+
 ## [4.1.0](https://www.github.com/web3-storage/web3.storage/compare/api-v4.0.5...api-v4.1.0) (2021-11-25)
 
 
