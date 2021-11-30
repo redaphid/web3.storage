@@ -7,13 +7,16 @@ const API = constants.API
 let magic = null
 
 export function getMagic() {
+  console.log('getMagic()')
   if (magic) {
     return magic
   }
+  console.log({constants})
   magic = new Magic(constants.MAGIC_TOKEN, {
     extensions: [new OAuthExtension()],
   })
 
+  console.log(`oh hey there ${magic}`)
   return magic
 }
 
